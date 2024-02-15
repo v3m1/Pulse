@@ -95,7 +95,14 @@
                 }
             }      
         }
-    } 
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+
+    }
+
 }
 @media (max-width: 767px) {
     .header {
@@ -157,6 +164,11 @@
         padding: 80px 0 72px 0;
         &__descr {
             margin-top: 54px;
+            font-size: 16px;
+        }
+    }
+    .catalog {
+        &__tab {
             font-size: 16px;
         }
     }
@@ -240,4 +252,24 @@
     .feed-form {
         width: 280px;
     }
+
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            margin-top: 30px;
+            row-gap: 10px;
+        }
+        &__tab {
+            height: 40px;
+            line-height: 39px;
+            font-size: 16px;
+            margin: 0;
+        }
+        &__content {
+            margin-top: 40px;
+        }
+        &-item {
+            width: 280px;
+        }
+    } 
 }
