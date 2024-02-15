@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-    .container {
-        width: 90%;
-    }
     .promo {
         &__header {
             font-size: 40px;
@@ -20,6 +17,9 @@
     }
 }
 @media (max-width: 991px) {
+    .container {
+        width: 90%;
+    }
     .promo {
         &__header {
             font-size: 38px;
