@@ -235,7 +235,7 @@
             width: 260px;
         }
         &_submit {
-            width: 280px;
+            width: 260px;
             font-size: 16px;
         }
     }
@@ -294,7 +294,7 @@
         }
     }
     .feed-form {
-        width: 280px;
+        width: 260px;
     }
 
     .catalog {
@@ -348,6 +348,21 @@
         }
         &__phone {
             margin-bottom: 30px;
+        }
+    }
+    .modal {
+        width: 280px;
+        padding: 38px 8px 40px 8px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__close {
+            top: -32px;
+            right: 0px;
+            font-size: 41px;
         }
     }
 }
