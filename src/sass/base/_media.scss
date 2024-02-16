@@ -315,6 +315,9 @@
         }
         &-item {
             width: 280px;
+            &__descr {
+                width: 230px;
+            }
         }
     }
     .feedback {
