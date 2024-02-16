@@ -194,6 +194,24 @@
             font-size: 14px;
         }
     }
+    .footer {
+        &__info {
+            width: 280px;
+            height: 210px;
+            padding: 30px 9px 28px 9px;
+        }
+        &__address {
+            margin-bottom: 17px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__phone {
+            margin-bottom: 22px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -316,4 +334,17 @@
             font-size: 14px;
         }
     } 
+    .footer {
+        &__info {
+            padding: 30px 9px 30px 9px;
+        }
+        &__address {
+            margin-bottom: 28px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__phone {
+            margin-bottom: 30px;
+        }
+    }
 }
