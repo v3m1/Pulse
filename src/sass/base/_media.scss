@@ -226,12 +226,14 @@
         }
         &__phone {
             font-size: 13px;
+            margin-bottom: 5px;
         }
     }
     .button {
         width: 130px;
         font-size: 11px;
         &_main {
+            font-size: 16px;
             width: 260px;
         }
         &_submit {
