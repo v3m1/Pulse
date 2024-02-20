@@ -53,4 +53,10 @@
             color: #ffffff;
         }
     }
+    &__map {
+        iframe {
+            width: 100%;
+            height: 630px;
+        }    
+    }
 }
